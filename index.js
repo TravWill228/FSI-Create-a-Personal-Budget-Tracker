@@ -21,7 +21,7 @@ for(let i = 0; i < monthlyExpenseQuestions.length; i++){
 for(let i = 0; i < annualExpenseQuestions.length; i++){
 
     let answer = parseFloat(window.prompt(annualExpenseQuestions[i]))
-    annualExpenses = monthlyExpenses + answer
+    annualExpenses = annualExpenses + answer
 
 }
 
